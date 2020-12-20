@@ -1,0 +1,33 @@
+body{
+    background-color: #424140;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.text{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50pt;
+    transition: .5s;
+}
+
+.box{
+    text-align: center;
+    margin: auto;
+    height: fit-content;
+    width: 25%;    
+}
+
+.text:hover{
+    transition: .5s;
+    color: white;
+}
+
+.box:hover{
+    background-color: #696665;
+    border: 5px solid #C4CFCD;
+    border-radius: 5px;
+    transition: .5s;
+}
